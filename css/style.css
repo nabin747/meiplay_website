@@ -42,6 +42,7 @@ a{
     /* background-color: blueviolet; */
     height: 10vh;
     width: 100%;
+    /* background: none; */
     background: transparent;
     /* border-bottom: 2px solid rgba(255, 255, 255, 0.582); */
 }
@@ -418,4 +419,63 @@ ul .tech-list{
     
     list-style-type:"\1F44D";
     padding: 5px;
+}
+.create-something{
+    background:#dbdbe4 ;
+}
+.banner{
+    font-weight: 300;
+    font-size: 0.90rem;
+    text-transform: uppercase;
+    
+}
+.banner-header{
+    font-weight: 900;
+    font-size: 2.1rem;
+    text-transform: uppercase;
+}
+.banner-disc{
+    padding-bottom: 2rem;
+}
+.new-thing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+.img-ban{
+    background: url(/image/group1.jpg) no-repeat;
+   height: 350px;
+   /* width: 400px; */
+   width: 32%;
+   /* height: auto; */
+   position: relative;
+    
+   
+}
+.new-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    
+
+        
+        top: 166px;
+        left: 84px;
+        
+        position: absolute;
+       
+        padding: 16px;
+}
+
+
+
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100000;
+    /*background-color: #000; */
+
 }
